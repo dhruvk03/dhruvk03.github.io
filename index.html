@@ -30,7 +30,7 @@
                 method: 'GET',
                 url: 'https://developers.zomato.com/api/v2.1/locations?query=mum&count=india',
                 headers: {
-                    'user-key': '56b1c13764f204266645a0775d7eabba'
+                    'X-Zomato-API-Key': '56b1c13764f204266645a0775d7eabba'
                 }
                 }).then(function (response) {
                     $scope.location = response.data;
